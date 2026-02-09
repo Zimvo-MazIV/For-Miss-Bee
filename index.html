@@ -16,11 +16,16 @@
     background: linear-gradient(180deg, #fffdf6 0%, #fffaf0 100%);
     font-family: "Georgia", "Times New Roman", serif;
     color: #5f5548;
-    height: 100vh;
+    min-height: 100svh;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
 }
+/*QUick fix*/
+        .carousel-container {
+    overflow-y: hidden;
+}
+
 
 /* Header */
 .big-header {
@@ -227,3 +232,4 @@ body::after {
 
 </body>
 </html>
+
